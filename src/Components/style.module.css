@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    
+    width: 100%;
+    padding:20px;
+    margin: 0 auto;
+}
+.countryContainer{
+display: flex;
+align-items: center;
+/* justify-content: center; */
+flex-wrap: wrap;
+gap:1rem;
+}
+.countryCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+    border:1px solid gray;
+    border-radius:5px;
+    padding:5px;
+    width:180px;
+}
+@media screen and (max-width:1400px)
+{
+    .container{
+    max-width: 1280px;
+    }
+}
+@media screen and (max-width:1200px)
+{
+    .container{
+    max-width:1091px;
+    }
+}
+@media screen and (max-width:1091px)
+{
+    .container{
+        max-width: 840px ;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .container{
+    max-width: 680px;
+    }
+}
+@media screen and (max-width:576px)
+{
+    .container{
+    width: 100%;
+    }
+}
